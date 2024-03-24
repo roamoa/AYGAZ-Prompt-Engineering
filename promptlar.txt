@@ -1,0 +1,110 @@
+ChatGPT’den Promptlar
+
+Prompt 1:
+Bir proje için web sitesi tasarlamam gerekiyor. Bana yardımcı olabilir misin? Sitenin konusu anime türü 
+aratarak o türdeki animeleri listelemek. Kullanılacak programlar html ve css. Sitede en az bir görsel 
+olmalı. Web sitesinin HTML yapısında, semantik etiketlerin(header, main, nav, section, article, aside, 
+footer) kullanılması beklenmektedir. Web sitesi, mobil, tablet ve masaüstü cihazlarda düzgün bir şekilde 
+görüntülenmeli ve kullanıcı deneyimini artırmak için tasarımın her boyutta optimize edilmiş olması 
+gerekmektedir. Web sitesinde arama butonuna yazılan tür adı aratıldığında o türdeki animelerin görselleri 
+gözükmeli. Anime görseline tıklanıldığında o animenin bilgilendirme yazısına erişilmeli. Tüm bilgilendirmeyi 
+anladıysan evet anlamadıysan hayır yazabilir misin?
+
+Prompt 2:
+Visual studio code kullanacağım. Yardımcı olduğun için teşekkür ederim.
+
+Prompt 3:
+Anime temasına uygun tasarım oluşturabilir misin?
+
+Prompt 4:
+Veya sadece pembe renkli bir web sitesi olsun. Yardımcı olabilir misin?
+
+Prompt 5:
+Önce kodu yazabilir misin? Daha sonra teması için üzerinde değişiklikler yapabiliriz.
+
+Prompt 6:
+Yazdığın kod üzerinde bazı değişiklikler yapmak istiyorum. Öncelikle Anasayfa yazısı çok başta duruyor. Onu 
+biraz sağa çekebilir miyiz?
+
+Prompt 7:
+yazıların siyah olmasını istiyorum header ve footer da dahil. yardımcı olabilir misin?
+
+Prompt 8:
+Headerı ROA'S ANIME SITE olarak değişitirip anasayfa, hakkımızda ve iletişim kısmını ortalar mısın? Ek olarak,
+main kısmına da arama butonu ekleyebilir misin? Arama butonun yazı yazılabilsin ve aratılabilsin?
+
+Prompt 9:
+JavaScript fonksiyonunu ekleyebilir misin?
+
+Prompt 10:
+Title'ı Anime Web Sitesi olarak değiştirebilir misin? Ayrıca java script kodunun title'ını da değiştirebilir
+misin aynı şekilde
+
+Prompt 11:
+copy kısmı da Anime Web Sitesi olarak değiştirip header yazı fontunu palatino linotype ve rengini mor yapabilir
+misin? Arama butonunu web sitesine göre ortalayabilir misin?
+
+Prompt 12:
+bunu css kodu olarak yazmamız gerekmez mi?
+Maindeki ilk sectionda bulunan header'ı "Arama butonuna aradığınız türü yazınız." yazabilir misin ve footer
+kısmındaki yazıyı 2024 Anime Web Sitesi. Tüm Hakları Saklıdır. şeklinde değiştirebilir misin? Ek olarak, 
+Maindeki ilk sectionda bulunan metni "Şuanlık sitemizde bulunan türlerimiz: Shounen, Shoujo, Josei ve Seinen'dir."
+şeklinde değiştirebilir misin?
+
+Prompt 13:
+arama butonunun rengini mor yapabilir misin? Ayrıca web sitesine görsel ekleyebileceğim bir kod ekleyebilir misin?
+
+Prompt 14:
+ara butonunu biraz küçültebilir misin? ayrıca, görseli arama butonunun altına ayrı bi section olarak ekleyebilir misin?
+
+Prompt 15:
+görseli sola koyabilir misin?
+
+Prompt 16:
+görselin boyutunu küçültebilir misin?
+
+Prompt 17:
+web sitesine 4 görsel yan yana sığacak şekilde görseli küçültüp yanına 3 görsel daha ekleyebilir misin? ek olarak
+her bir görselin altına kalın fontla görselin başlığını ve görsel başlığının altına da görsel ile ilgili yazı
+ekleyebilir misin?
+
+Prompt 18:
+arama butonunun stilini/şeklini değiştirebilir misin? ek olarak arama butonuna görsel ile ilgili bilgi yazıldığında
+sadece o görselin gözükmesini sağlayabilir misin?
+
+Prompt 19:
+…
+bu kodda bulunan görsellerde <p> kımındaki yazıları arama butonunda arattığında sadece o görselin görünmesi
+sağlayabilir misin?
+
+Prompt 20:
+…
+bu koda article ve aside semantik etiketlerini ekleyebilir misin?
+
+ChatGPT’den Görsel Hikayesi Prompt’u için yardım Prompt’u:
+bana Seinen anime konusu yazabilir misin ama 350 karakteri geçmesin ve ingilizce olsun.
+
+Görseller için promptlar
+
+https://davinci.ai/app
+Prompt 1: 
+Let the visual be the shounen anime cover. Let there be 3 people in the image. Let the evil main character
+in the center be a male vampire with blond hair. Let the girl on your right be the one who causes the main
+character to be bad. Let the girl be a vampire with blonde hair. On the left, let there be a man who is the
+main character's best friend. Let the man be a person with brown hair. Please draw people like anime characters
+
+Prompt 2:
+Josei anime cover / four main character / 1st character is a woman boss / 2nd character is a man office worker / 
+3rd character is a woman office worker / 4th character is man office worker / they are two couples 
+Please draw people like anime characters
+
+Prompt 3:
+shoujo anime cover / four main character / this will be high school theme Please draw people like anime characters
+
+https://app.leonardo.ai/ai-generations
+Prompt 4:
+In the futuristic city of Neo-Tokyo, a group of disillusioned youth discovers a hidden world of supernatural beings
+living among them. As they uncover the truth behind their existence, they must navigate the complexities of power,
+morality, and their own inner demons, all while facing the looming threat of a clandestine organization bent on
+controlling them. Their journey forces them to confront the blurred lines between good and evil in a society on
+the brink of chaos.
