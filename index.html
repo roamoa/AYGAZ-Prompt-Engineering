@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Web Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function searchAnime() {
+            var searchText = document.getElementById("search").value.toLowerCase(); // Aranan metni küçük harfe çevirin
+            var images = document.querySelectorAll('.image'); // Tüm görsel kutularını seçin
+            images.forEach(function(image) {
+                var title = image.querySelector('h3').textContent.toLowerCase(); // Görsel başlığını alın ve küçük harfe çevirin
+                var description = image.querySelector('p').textContent.toLowerCase(); // Görsel açıklamasını alın ve küçük harfe çevirin
+                if (title.includes(searchText) || description.includes(searchText)) { // Aranan metni görsel başlığı veya açıklaması içeriyorsa gösterin, yoksa gizleyin
+                    image.style.display = 'inline-block';
+                } else {
+                    image.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>ROA'S ANIME WEBSITE</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Anasayfa</a></li>
+                <li><a href="#">Hakkımızda</a></li>
+                <li><a href="#">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Arama butonuna aradığınız anime türünü yazınız.</h2>
+            <p>Şu anlık sitemizde bulunan türlerimiz: Shounen, Shoujo, Josei ve Seinen'dir.</p>
+            <input type="text" id="search" placeholder="Arama yapın...">
+            <button onclick="searchAnime()" class="search-button">Ara</button> <!-- Ara butonuna bir class ekledik -->
+        </article>
+        <aside>
+            <section class="image-container">
+                <div class="image">
+                    <img src="true_enemy.jpeg" alt="Anime Image 1">
+                    <h3>True Enemy</h3>
+                    <p>Shounen</p>
+                </div>
+                <div class="image">
+                    <img src="highschool_romance.jpeg" alt="Anime Image 2">
+                    <h3>Highschool Romance</h3>
+                    <p>Shoujo</p>
+                </div>
+                <div class="image">
+                    <img src="inner_demons.jpg" alt="Anime Image 3">
+                    <h3>Inner Demons</h3>
+                    <p>Seinen</p>
+                </div>
+                <div class="image">
+                    <img src="my_little_boss.jpeg" alt="Anime Image 4">
+                    <h3>My Little Boss</h3>
+                    <p>Josei</p>
+                </div>
+            </section>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 Anime Web Sitesi. Tüm Hakları Saklıdır.</p>
+    </footer>
+</body>
+</html>
